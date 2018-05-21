@@ -1,0 +1,14 @@
+{
+  "name": "vue-library-template",
+  "version": "2.0.0",
+  "license": "MIT",
+  "description": "A fork of the Vue-cli webpack template, but adjusted for library (with docs site) development.",
+  "scripts": {
+    "docs": "cd docs && gitbook serve",
+    "docs:deploy": "bash ./deploy-docs.sh"
+  },
+  "devDependencies": {
+    "vue-cli": "^2.8.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
